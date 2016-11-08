@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+
+    tools:context="com.qwerty.acer.facebook52.Near">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <EditText
+                android:layout_width="294dp"
+                android:layout_height="match_parent"
+                android:id="@+id/editText12"
+                android:layout_gravity="left|top"
+                android:background="#d4cfcf"
+                android:autoText="true"
+                android:hint="Search......" />
+
+            <Button
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:id="@+id/button8"
+                android:layout_gravity="right|top"
+                android:background="#8b97bf" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="45dp"
+            android:background="#cfcaca">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEARBY"
+                android:id="@+id/textView15"
+                android:layout_gravity="left|center_vertical" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="554dp"
+            android:layout_marginTop="82dp">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView"
+                android:layout_gravity="left|top" />
+
+
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</ScrollView>

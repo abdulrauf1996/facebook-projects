@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Facebook5.2</string>
+
+    <string-array name="gender_arrays">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+</resources>
